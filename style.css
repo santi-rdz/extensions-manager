@@ -257,11 +257,12 @@
   .btn.toggle::after {
     content: "";
     width: 45%;
-    height: 80%;
+    height: 82.5%;
     background-color: var(--clr-neutral-0);
     position: absolute;
-    top: 10%;
+    top: 50%;
     left: 2px;
+    transform: translateY(-50%);
 
     border-radius: 50%;
     transition: transform 0.3s ease;
@@ -273,8 +274,8 @@
       background-color: var(--clr-red-500);
     }
   }
-  .btn.toggle.active:after {
-    transform: translateX(98%);
+  .btn.toggle.active::after {
+    transform: translate(100%, -50%);
   }
 }
 
