@@ -246,8 +246,8 @@
   }
   .btn.toggle {
     position: relative;
-    width: 36px;
-    height: 20px;
+    width: 44px;
+    height: 24px;
     background-color: var(--clr-surface-alt2);
 
     border-radius: 999px;
@@ -256,7 +256,7 @@
   }
   .btn.toggle::after {
     content: "";
-    width: 50%;
+    width: 45%;
     height: 80%;
     background-color: var(--clr-neutral-0);
     position: absolute;
@@ -274,7 +274,7 @@
     }
   }
   .btn.toggle.active:after {
-    transform: translateX(77%);
+    transform: translateX(98%);
   }
 }
 
