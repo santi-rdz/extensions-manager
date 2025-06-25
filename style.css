@@ -179,6 +179,7 @@
   .exstensions-section {
     padding-block: clamp(4rem, 5.2vw, 6.4rem);
   }
+
   .filter-ul {
     gap: 10px;
   }
@@ -220,6 +221,7 @@
   .extension-header {
     gap: 20px;
   }
+
   .extension-img {
     height: fit-content;
   }
@@ -276,7 +278,7 @@
   }
 }
 
-@media (width <= 500px) {
+@media (width <= 765px) {
   .extensions-header {
     flex-direction: column;
     gap: 2rem;
